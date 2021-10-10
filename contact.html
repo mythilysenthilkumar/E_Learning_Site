@@ -1,0 +1,107 @@
+<html><head><title>contact</title></head>
+<style>
+*{margin:0;
+padding:0;}
+body{
+background-image:url("bg11.jpg");
+background-size:cover;
+font-size:20px;
+font-family:verdana;}
+.main{
+width:80%;
+margin:50px auto;}
+.sub{
+background-color:white;
+display:flex;}
+.sub1{
+flex-basis:60%;
+padding:40px 60px;}
+.sub2{
+width:40%;
+background-color:lightgreen;
+color:white;
+padding:40px;}
+h1{
+margin-bottom:10px;}
+.f1 .ff1{
+flex-basis:40%;}
+input{
+width:100%;
+border:none;
+border-bottom:1px solid black;
+outline:none;
+padding-bottom:10px;}
+.f1{
+display:flex; /*2 col*/
+margin-bottom:20px;}
+textarea{
+border:1px solid black;
+width:100%;
+outline:none;
+padding:10px;
+box-sizing:border-box;}
+label{
+display:block;
+margin-bottom:5px;
+color:blue;}
+button{
+background-color:lightgreen;
+width:100px;
+text-align:center;
+outline:none;
+color:white;
+height:30px;
+border-radius:30px;
+margin-top:20px;
+box-shadow:0px 5px 25px 0px;}
+.sub1 h3{
+color:blue;
+font-weight:bold;
+margin-bottom:30px;}
+.sub2 h3{
+font-weight:bold;
+margin-bottom:30px;}
+tr td:first-child{
+padding-right:20px;}
+tr td{
+padding-top:20px;}
+a{
+text-decoration:none;
+list-style:none;
+padding:10px;
+font-size: 20px;}
+ul li a:hover{
+text-decoration:none;
+color:white;
+border-radius:10px;
+padding:10px;
+font-size: 20px;}
+.menubar ul li{
+color:white;
+display:inline;}
+</style><body>
+<div class="menubar"><ul>
+<li><a style="float:right;" href="logout.html" onclick="logout()">Logout</a>
+<script>function logout(){
+window.alert("do you really want to logout?");}</script>
+<li><a style="float:right;" href="feedback.html">Feedback</a></li>
+<li><a style="float:right;" href="about.html">About us</a></li>
+<li><a style="float:right;" href="home.html">Home</a></li>
+</div><br><br><div class="main"><h1>Contact</h1>
+<div class="sub"><div class="sub1"><h3>Your request</h3>
+<form><div class="f1"><div class="ff1"><label>Name</label>
+<input type="text" placeholder="name"></div><div class="ff1">
+<label>Phone</label>
+<input type="text" placeholder="Number"></div></div></form>
+<form><div class="f1"><div class="ff1">
+<label>Email</label><input type="email" placeholder="Email">
+</div><div class="ff1"><label>Subject</label>
+<input type="text" placeholder="write your request"></div></div>
+<label>Message</label>
+<textarea rows="4" placeholder="your message"></textarea>
+<button><a href="confirm.html">Submit</a></button>
+</form></div><div class="sub2"><h3>Connect with us</h3>
+<table><tr><td>Email</td><td>abc@gmail.com</td></tr>
+<tr><td>Phone</td><td>9876543210</td></tr><tr><td>Address</td>
+<td>Dubai mainroad,<br>Dubai kuruku sandhu,<br>Dubai </td></tr>
+</table></div></div></body></html>

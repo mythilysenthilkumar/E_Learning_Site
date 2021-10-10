@@ -1,0 +1,122 @@
+<html><head> <title>signin</title>
+ <style type="text/css">
+ body {
+ margin:0;
+ padding: 0;
+ background-image: url(bg13.jpg);
+ background-repeat: no-repeat;
+background-size: cover;
+ color:white;
+ font-family: sans-serif; 
+}
+.home
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ .div2{
+ width: 1100px;
+ height: 500px;
+ position: absolute;
+ top: 90px;
+ left: 215px; }
+ .signin {
+ width: 280px;
+ height: 350px;
+background:rgba(255,255,255,0.8);
+ /*background:rgba(0, 0, 0,.4); /*black*/
+ border-radius: 30px;
+ color:black;
+ top:55%;
+ left: 40%;
+ position: absolute;
+ transform: translate(-50% ,-50%);
+ box-sizing: border-box; }
+ .profile {
+ width: 45%;
+ height: 30%;
+ border-radius: 50%;
+ position: absolute;
+ top: -50px;
+ left: 75px; }
+ h2 {
+ margin: 0;
+ padding: 0;
+ text-align: center; 
+text-decoration: none;
+}
+ .signin input {
+ background-color: white;
+ color: white;
+ font-size: 15px;
+ font-weight: bold;
+ padding: 0px 0px 0px 25px;
+ margin: 0px 0px 0px 60px;
+ width: 200px;
+ height: 30px;
+ background:black;
+ border-radius: 15px;
+ border-color: white;
+ border-width: 2px; }
+ button {
+ position: absolute;
+ left: 80px;
+ top: 200px;
+ border-radius: 10px;
+ background-color: skyblue;
+ width: 140px;
+ height: 25px;
+ color: black;
+ font-size: 15px;
+ font-weight: bold; }
+ button:hover {
+ width: 160px;
+ background-color: skyblue;
+ color: black;
+ font-size: 15px;
+ font-weight: bold; }
+ input:hover {
+ background-color: white;
+ color: black;
+ font-size: 15px;
+ font-weight: bold;
+ width: 210px; }
+ form {
+ position: absolute;
+ top: 100px;
+ right: 32px; }
+ .backhome
+ {
+    color: black;
+    text-decoration: none;
+    background-color: yellow;
+    width: 100px;
+    height: 29px;
+    font-size: 25px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    text-align: center;
+    border-radius: 15px;
+ }
+ </style></head>
+ <body>
+<a class="backhome" href="home.html">Home</a>
+ <div class="div2">
+ <div class="signin">
+ <img src="profile4.png" class="profile">
+ <br> <br> <br>
+ <h2 style="text-decoration: none;">Sign in here</h2> <br>
+ <form name="form1" method="POST"> <b> <input type="text" id="fname"
+name="fname" placeholder="First Name"><br><br>
+ <input placeholder="Last Name" type="text" id="lname"
+name="lname"><br><br>
+ <input type="email" id="email" placeholder="Email" name="email"><br><br>
+ <input type="date" id="birthday" name="birthday"><br><br>
+&nbsp;&nbsp;&nbsp;<button" ><a  style="text-decoration:none; width: 130px; height:20px; background-color: blue; color: white; position: absolute; left: 100px; border-radius: 10px;" href="main.html" onclick="login()">&nbsp;Create
+Account</a></button>
+<script>function login(){
+window.alert("successfully joined!!!");}
+</script></b></form></div><br><br><br><br><br><br><br><br></div>
+</body></html>

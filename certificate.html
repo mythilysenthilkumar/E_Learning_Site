@@ -1,0 +1,27 @@
+<html><head>
+<style>a{
+text-decoration:none;
+list-style:none;
+padding:10px;
+font-size: 20px;}
+ul li a:hover{
+text-decoration:none;
+border-radius:10px;
+padding:10px;
+font-size: 20px;}
+.menubar ul li{
+color:white;
+display:inline;}
+</style></head><body><div class="menubar"><ul>
+<li><a style="float:right;background-color: #4f422a; color:white; " href="logout.html" onclick="logout()">Logout</a>
+<script>function logout(){window.alert("do you really want to logout?");}
+</script><li><a style="float:right;background-color: #4f422a; color:white;" href="feedback.html">Feedback</a></li>
+<li><a style="float:right;background-color: #4f422a; color:white;" href="about.html">About us</a></li>
+<li><a style="float:right;background-color: #4f422a; color:white;" href="main.html">Home</a></li></div>
+<button style="float:right;background-color: #4f422a; color:white; position: absolute;top: 0; left:0; width:200px;height: 40px; font-size: 20px; border-radius: 20px; cursor: pointer;" onclick="display()">Click here to print</button>
+<br><br><br><br><br><br>
+<center><img src="cer.jpg" width="600px" height="600px"/></center>
+<script>function display() 
+{
+window.print();
+}</script><br><br><br></body></html>

@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>homepage</title>
+<style>
+*{
+margin:0;
+padding:0;
+text-decoration:none;
+list-style:none;
+box-sizing:border-box;
+}
+.div{
+height:100vh;
+background-image:url("body.jpeg");
+background-position:center;
+background-size:cover;
+background-repeat: no-repeat;
+position:relative;
+}
+.nav
+{
+display:flex;
+padding:40px 120px;
+}
+.link ul{
+margin-left:400px;
+display:inline;
+}
+.link ul li{
+list-style-type:none;
+display:inline-block;
+padding:8px 25px;
+font-size:30px;
+color:white;
+}
+.link ul a{
+color:white;
+text-decoration:none;
+font-size:30px;
+}
+.link ul li::after
+{
+content:"";
+width:0px;
+height:2px;
+background-color:red;
+display:block;
+margin:auto;
+}
+.link ul li:hover::after /* increase the width of bottomline */
+{
+width:100%;
+}
+.button{
+padding: 10px 20px;
+border:0;
+background-color: orange;
+font-weight:bold;
+}
+.new{
+	margin: 80px 130px;
+color:white;
+}
+.new h1{
+font-size:40px;
+margin-bottom:30px;
+}
+.new1{
+height:100%;
+width:80px;
+background:rgba(255, 255, 255,0.95); /*blue*/
+top:0;
+left:0;
+position:absolute;
+}
+.img{
+height:60%;
+width:75px;
+}
+.icon{
+height:35%;
+width:80px;
+text-align:center;
+background-color:rgba(66, 126, 245,0.2);/*blue*/
+bottom:0;
+position:absolute;
+}
+.nav .close{
+display:none;
+}
+@media(max-width:700px)
+{
+.new1{
+display:none;
+}
+.new{
+margin:60px 40px;
+}
+.new h1{
+font-size:25px;
+}
+.nav{
+padding:10px 80px;
+}
+.link{
+height:100vh;
+width:200px;
+background-image: url(bi1.jpg);
+top:0;
+right:0px;
+position:absolute;
+text-align:left;
+z-index:2;
+}
+.link ul a{
+display:block;
+}
+.link .button{ /*menu and btn will aligned in same line*/
+float:none;
+margin-left:25px;
+margin-top:10px;
+}
+.close{
+position:absolute;
+right:20px;
+top:10px;
+}
+.nav .close{
+display:block;
+color:white;
+font-size:22px;
+margin: 10px 25px;
+}
+ul li{
+display:block;
+margin:10px 0;
+}
+ul li a{
+font-size:20px;
+}
+a:link
+{
+border: 4px solid blue;
+background-color:black;
+}
+a:hover
+{
+border: 4px solid blue;
+background-color:red;
+}
+a.active
+{
+	background-color:white;
+}
+</style></head><body>
+<div class="div"> <div class="nav"><div class="link"> <ul >
+<a href="index.html"><li class="active">Home</li></a>
+<a href="login.html"><li>Login</li></a>
+<a href="contact.html"><li>Contact</li></a>
+<a href="about.html"><li>About</li></a> </ul>
+<button class="button"><a href="signin.html"><span style="color:white">SIGN
+UP</a></button> </div> </div>
+<div class="new"><h1>Learn more-Earn more</h1>
+<button class="button"><span style="color:white">ENJOY  LEARNING</button>
+<br><br><br><br><br><br><br><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bulb.gif" width="130" height="120">
+</div><div> </div><div class="new1">
+<div class="img"><img src="e-learning.jpg" width="80px" height="70px"/></div>
+<div class="icon">
+<a href="https:www.google.com"><img src="gle1.png" width="50px" height="50px"/></a>
+<a href="https:www.twitter.com"><img src="twitter.png" width="50px" height="50px"/></a>
+<a href="https:www.facebook.com"><img src="facebook.jpg" width="80px" height="70px"/></a>
+<a href="https:www.linkedin.com"><img src="linkedin.png" width="50px" height="50px"/></a>
+</div>
+</div></div></div></body></html>
