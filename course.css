@@ -57,7 +57,7 @@ border:1px solid white;
  border-radius:50px;
  background:white;
  display:inline-block;
- margin:8px
+ margin:8px;
  width:250px;
  font-size:20px;
  background:transparent;
@@ -67,36 +67,49 @@ button{
  background:transparent;
  border:none;
  outline:none;}
+
 .container, .subcontainer
 {
  margin: 50px;
+ text-align:center;
+}
 
- text-align:center;}
-.categories, .books{
+.categories, .books
+{
 margin:5px;
 border:1px solid red;
 border-radius:30px 20px;
-display:inline-block;}
-.item-image{
+display:inline-block;
+}
+.item-image
+{
 height:120px;
 width:175px;
 border-radius:50px;
-padding:10px;}
-.image-title{
+padding:10px;
+}
+.image-title
+{
 text-align:center;
 padding:10px;
 border-radius:50px;
-font-weight:bold;}
-a{
-text-decoration:none;}
-.title{
+font-weight:bold;
+}
+a
+{
+text-decoration:none;
+}
+.title
+{
 padding:30px;
 font-size:30px;
 font-weight:bold;
 letter-spacing:10px;
 color:yellow;
-background :rgba(0,0,0,0.5);}
-.sub{
+background :rgba(0,0,0,0.5);
+}
+.sub
+{
 padding:50px;
 font-size:20px;
 font-weight:bold;
@@ -105,7 +118,7 @@ display:inline-block;
 margin:20px;
 max-width:20%;
 border-radius: 15px;
-background-image: url("bg1.png");
+background-image: url("bg1.PNG");
 background-size:cover;
 }
 .coupon-btn{
